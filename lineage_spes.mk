@@ -38,4 +38,9 @@ PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
 
 # Fingerprint
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_DEVICE="spes" \
+    PRODUCT_NAME="spes" \
+    PRIVATE_BUILD_DESC="spes-user 13 TKQ1.221114.001 V14.0.6.0.TGKMIXM release-keys"
+
 BUILD_FINGERPRINT := "Redmi/spes/spes:13/TKQ1.221114.001/V14.0.6.0.TGKMIXM:user/release-keys"
